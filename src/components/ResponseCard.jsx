@@ -23,15 +23,14 @@ const TextRow = ({ title, content }) => (
     </Typography>
   </Box>
 );
+
 const ResponseCard = ({ prompt, response }) => (
   <Box
     sx={{
-      p: "10px",
+      py: "12px",
+      px: "18px",
       mt: "10px",
-      border: "solid",
-      borderWidth: 1,
-      borderColor: "#777",
-      borderRadius: 1,
+      backgroundColor: "#eeeeee",
     }}
   >
     <TextRow title="Prompt" content={prompt} />

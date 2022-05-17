@@ -3,7 +3,7 @@ import { Box, Divider, Link } from "@mui/material";
 
 const Footer = () => (
   <>
-    <Box sx={{ position: "fixed", bottom: 0, width: "100%" }}>
+    <Box sx={{ mt: "30vh" }}>
       <Divider />
       <div
         style={{
@@ -29,7 +29,7 @@ const Footer = () => (
             GitHub Repo
           </Link>
           <Link
-            href={"https://www.google.com"}
+            href={"https://www.linkedin.com/in/yun-feng-b0974b169/"}
             underline="hover"
             color="#6e6e73"
             style={{ fontSize: 14, margin: "0px 7px" }}
